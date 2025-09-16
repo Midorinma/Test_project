@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- contactCss-Header -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- slickSlider sau khi setup extensions Evondev snippets-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <!-- <header> -->
+        <header>
+            <section class="top_message">
+                <div class="top_message_text_left">
+                    <span class="text_light">IFY FOR</span>
+                    <span class="text_strong">$1/MONTH</span>
+                </div>
+                <div class="top_message_text_midle">
+                    <span class="text_light">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR</span>
+                    <span class="text_strong">$1/MONTH</span>
+                </div>
+                <div class="top_message_text_midle">
+                    <span class="text_light">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR</span>
+                    <span class="text_strong">$1/MONTH</span>
+                </div>
+                <div class="top_message_text_midle">
+                    <span class="text_light">SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR</span>
+                    <span class="text_strong">$1/MONTH</span>
+                </div>
+                <div class="top_message_text_right">
+                    <span class="text_light">SPECIAL OFFER: ENJ</span>
+                </div>
+            </section>
+
+            <section class="header_wrapper">
+                <div class="respon_bar">
+                    <div class="bar_container" onclick="document.getElementById('id03').style.display='block'">
+                        <div class="bar_1"></div>
+                        <div class="bar_2"></div>
+                        <div class="bar_3"></div>
+                    </div>
+                </div>
+                <div class="header_topNav_FreeShipping_logo">
+                    <div class="logo">
+                        <strong style="cursor: pointer;">
+                            <p style="display: inline;">&emacr;</p>lla
+                        </strong>
+                    </div>
+                    <div class="header_topNav_freeShipping">
+                        <div class="freeShipping">
+                            <p>Free shipping on All Orders. No Minimum Purchase</p>
+                        </div>
+    
+                        <div class="topNav">
+                            <div class="cart" style="display: inline-block;">
+                                <button onclick="showBtnid2()">
+                                    <i class="fa-solid fa-cart-shopping" style="margin-right: 5px;"></i>
+                                    <span>Shopping Cart</span>
+                                    <span class="count" style="margin-left: 5px;">0</span>
+                                </button>
+                            </div>
+                            <div class="wish_lists" style="display: inline-block; margin-left: 26px; cursor: pointer;">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>My Wish Lists</span>
+                            </div>
+                            <div class="account" style="display: inline-block; margin-left: 25px; cursor: pointer;">
+                                <span onclick="showBtnid1()">Sign In or Create an
+                                    account</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Thanh điều hướng menu -->
+            <nav class="header_banner_menu">
+                <div class="wrapper">
+                    <ul class="menuItems">
+                        <li><a href="#">NEW IN</a></li>
+                        <li><a href="#">TREND</a></li>
+                        <li><a href="#" data-tooltip="Sale">COLLECTIONS</a></li>
+                        <li><a href="#">LOOKBOOK</a></li>
+                        <li><a href="#" data-tooltip-1="New">DEMO</a></li>
+                        <li><a href="#" data-tooltip-2="Hot">SHOP INSTAGRAM</a></li>
+                        <li class="vd1">
+                            <a href="#" class="vd2">BLOG</a>
+                            <div class="vd3">
+                                <a href="#">Blog Default Layout</a>
+                                <a href="#">Blog with small image and left siderbar</a>
+                                <a href="#">Blog mansory</a>
+                                <a href="#">Blog full-width</a>
+                                <a href="#">Blog Post with Look book</a>
+                                <a href="#">Blog post with product widget</a>
+                            </div>
+                        </li>
+                        <li><a href="#">BRANDS</a></li>
+                        <li><a href="#">FAQS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- </header> -->
+
+        <!-- <content> -->
+        <main class="content">
+            <section class="images_slider">
+                <div class="images_item" inert>
+                    <div class="image">
+                        <img src="/image/slider1.jpg" alt="image-slider1">
+                    </div>
+                    <div class="image_content">
+                        <div class="title">
+                            <h3 class="cosmopolis">Cosmopolis</h3>
+                        </div>
+                        <div class="underline" style="width: 50px;height: 2px; background-color: black;"></div>
+                        <div class="container">
+                            Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean
+                            diverra loremous.
+                        </div>
+                        <button class="shop_now" style="cursor: pointer;">shop now</button>
+                    </div>
+                </div>
+                <div class="images_item">
+                    <div class="image">
+                        <img src="/image/slider2.jpg" alt="image-slider2">
+                    </div>
+                    <div class="image_content2">
+                        <div class="special_offers">special offers</div>
+                        <div class="title">
+                            <div></div>
+                            <h3 class="cosmopolis">sale</h3>
+                        </div>
+                        <div class="container">
+                            up to 70% off on selected items. limited - time only
+                        </div>
+                        <button class="shop_now" id="shop_01">shop now</button>
+                    </div>
+                </div>
+                <div class="images_item">
+                    <div class="image">
+                        <img src="/image/slider3.jpg" alt="image-slider3">
+                    </div>
+                    <div class="image_content3">
+                        <div class="title">
+                            <h3 class="cosmopolis">Loremous</h3>
+                            <div class="underline"></div>
+                        </div>
+                        <div class="container">
+                            Quisquemos sodales suscipit tortor ditaemcos condimentum lacus meleifend menean diverra
+                            lorem comodous.
+                        </div>
+                        <button class="shop_now">Shop The Collection</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="wrapper">
+                <!-- category -->
+                <div class="box_img">
+                    <div class="editor">
+                        <p class="content_image">Editor’s Pick</p>
+                        <img src="/image/banner1.jpg" alt="editor-img" style="object-fit: cover;">
+                    </div>
+                    <div class="shoes">
+                        <p class="content_image">shoes</p>
+                        <img src="/image/banner2.jpg" alt="shoes-img" style="object-fit: cover;">
+                    </div>
+                    <div class="accessories">
+                        <p class="content_image">accessories</p>
+                        <img src="/image/banner3.jpg" alt="accessories-img" style="object-fit: cover;">
+                    </div>
+                </div>
+
+                <!-- New Arrivals Products -->
+                <div class="content_arrivals_products">
+                    <!-- New Arrivals -->
+                    <div class="new_Arrivals">
+                        <div class="crossbar"></div>
+                        <div class="content">
+                            <h3 class="title">New Arrivals</h3>
+                            <p class="node">View All</p>
+                        </div>
+                    </div>
+                    <div class="wrap_product">
+                        <div class="products_item">
+                            <div class="item_image">
+                                <img src="/image/products3.jpg" alt="clothes_product" class="item_image_product">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="content">
+                                <div class="sodling">sodling</div>
+                                <div class="description" style="text-align: center;">Naminos Dementus A Milance -
+                                    Pattern
+                                </div>
+                                <div class="price">$86.00 - $99.00</div>
+                            </div>
+                            <div class="color_item">
+                                <span class="color1"></span>
+                                <span class="color2"></span>
+                                <span class="color3"></span>
+                            </div>
+                        </div>
+                        <div class="products_item">
+                            <div class="item_image">
+                                <div class="item1">
+                                    <img src="/image/products4.jpg" alt="clothes_product" class="item_image_product">
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="btn_addToCart"><button class="add">add to cart</button></div>
+                            </div>
+                            <div class="content">
+                                <div class="sodling">Tomorrow</div>
+                                <div class="description">Dinterdum Pretium Condimento - Pattern</div>
+                                <div class="price">$139.00 - $189.00</div>
+                            </div>
+                            <div class="color_item2">
+                                <span class="color1"></span>
+                                <span class="color2"></span>
+                                <span class="color3"></span>
+                                <span class="color4"></span>
+                                <span class="color5"></span>
+                                <span class="color6">+1</span>
+                            </div>
+                        </div>
+                        <div class="products_item">
+                            <div class="item_image">
+                                <div class="item2">
+                                    <img src="/image/products2.jpg" alt="clothes_product" class="item_image_product">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-xmark"></i>
+                                    <div class="size_submit">
+                                        <div class="change">Size: XS</div>
+                                        <div class="size">
+                                            <p>xs&nbsp;&nbsp;&nbsp;s&nbsp;&nbsp;m&nbsp;&nbsp;l&nbsp;&nbsp;xl&nbsp;&nbsp;2x
+                                            </p>
+                                        </div>
+                                        <div class="underline"></div>
+                                        <button class="submit_btn">submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="sodling">Paul Smith</div>
+                                <div class="description">Magnis Darturien Metro Lacinis - Black</div>
+                                <div class="price">$86.00</div>
+                            </div>
+                            <div class="color_item"></div>
+                        </div>
+                        <div class="products_item">
+                            <div class="item_image">
+                                <img src="/image/products1.jpg" alt="clothes_product" class="item_image_product">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            <div class="content">
+                                <div class="sodling">Donatello</div>
+                                <div class="description" style="text-align: center;">Loremous Saliduar A Cosmopolito -
+                                    Pattern</div>
+                                <div class="price">$86.00 - $99.00</div>
+                            </div>
+                            <div class="color_item4">
+                                <span class="color1"></span>
+                                <span class="color2"></span>
+                                <span class="color3"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_show_more">
+                    <button class="show_more">show more</button>
+                </div>
+                <!--Instagram-->
+                <div class="content_instagram">
+                    <div class="ins_title">
+                        <i class="fa-brands fa-instagram"></i>
+                        <h2>#Ella On Instagram</h2>
+                    </div>
+                    <div class="ins_content">
+                        <p>Phasellus lorem malesuada ligula pulvinar commodo maecenas</p>
+                    </div>
+                    <div class="slider_image_instagram">
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins1.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins2.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins3.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins4.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins5.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins1.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins2.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins3.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins4.jpg" alt="product_image">
+                            </div>
+                        </div>
+                        <div class="image_item_ins">
+                            <div class="image">
+                                <img src="/image/ins5.jpg" alt="product_image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view_gallery">
+                    <button class="btn_gallery">View Gallery</button>
+                </div>
+            </section>
+            <!-- Scroll bar -->
+            <aside class="scrollbar">
+                <div class="box_tool">
+                    <button class="rotate_history">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                    </button>
+                    <button class="share">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                    <button class="arrow_up">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </button>
+                </div>
+            </aside>
+            <!-- Recently -->
+            <aside class="recently" style="display: none;">
+                <div class="handle_btn_right">
+                    <button>
+                        <i class="fa-solid fa-angles-right"></i>
+                    </button>
+                </div>
+                <div class="content_recently">
+                    <div class="cart_item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart_count">0</span>
+                    </div>
+                    <div class="underline">
+                        <hr>
+                    </div>
+                    <div class="title_recent">
+                        <h3>Recently Viewed</h3>
+                    </div>
+                    <div>
+                        <span>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </span>
+                        <div class="product_item1">
+                            <img src="/image/products1.jpg" alt="product_img">
+                        </div>
+                        <div class="product_item2">
+                            <img src="/image/products2.jpg" alt="product_img">
+                        </div>
+                        <span class="down_arrow_btn">
+                            <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </div>
+                    <div class="underline">
+                        <hr>
+                    </div>
+                    <div style="margin-top: 1rem;cursor: pointer;">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <span>Top</span>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <!-- </content> -->
+
+        <!-- <footer> -->
+        <footer>
+            <section class="wrapper">
+                <div class="shop_infor">
+                    <div class="col_3">
+                        <div class="shop_infor_col1">
+                            <ul class="menu_title">
+                                <li class="attribute_title">
+                                    <h3 class="title">Title</h3>
+                                </li>
+                                <li>New in</li>
+                                <li>Women</li>
+                                <li>Men</li>
+                                <li>Shoes</li>
+                                <li>Bags & Accessories</li>
+                                <li>Top Brands</li>
+                                <li>Sale & Special Offers</li>
+                                <li>Lookbook</li>
+                            </ul>
+                        </div>
+                        <div class="infor_col2">
+                            <ul class="menu_info">
+                                <li class="attribute_title">
+                                    <h3 class="info">Information</h3>
+                                </li>
+                                <li>About</li>
+                                <li>Customer Service</li>
+                                <li>Reward Program</li>
+                                <li>Shipping & Returns</li>
+                                <li>Privacy Policy</li>
+                                <li>Terms and Conditions</li>
+                                <li>Blog</li>
+                            </ul>
+                        </div>
+                        <div class="customer_service_col3">
+                            <ul class="menu_customer">
+                                <li class="attribute_title">
+                                    <h3>Customer Service</h3>
+                                </li>
+                                <li>
+                                    Search Terms
+                                </li>
+                                <li>Advanced Search</li>
+                                <li>Orders and Returns</li>
+                                <li>Contact Us</li>
+                                <li>Theme FAQs</li>
+                                <li>Consultant</li>
+                                <li>Store Locations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="new_sletter_sign_up">
+                        <div class="title_content">
+                            <h3>newsletter sign up</h3>
+                            <p style="padding-bottom: 1rem;">Sign up for exclusive updates, new arrivals & insider only
+                                discounts</p>
+                        </div>
+                        <div class="email_submit">
+                            <input type="text" placeholder="Email Address">
+                            <button>submit</button>
+                        </div>
+                        <div class="connect">
+                            <img src="/image/icon1.jpg" alt="facebook_image" style="width: 37px; height: 37px;">
+                            <img src="/image/icon2.jpg" alt="Twitter_image" style="width: 37px; height: 37px;">
+                            <img src="/image/icon3.jpg" alt="Instagram_image" style="width: 37px; height: 37px;">
+                            <img src="/image/icon4.jpg" alt="Pinterest_image" style="width: 37px; height: 37px;">
+                            <img src="/image/icon5.jpg" alt="img" style="width: 37px; height: 37px;">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="crossbar"></section>
+            <section class="wrapper">
+                <div class="bank_mac_copy">
+                    <div class="mac_copy">© 2014 Ella Demo. All Rights Reserved. Powered by Shopify.
+                        Shopify Themes by HaloThemes.com</div>
+                    <div class="bank">
+                        <img src="/image/bank1.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank2.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank3.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank4.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank5.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank6.jpg" alt="bank" style="width: 38px; height: auto;">
+                        <img src="/image/bank7.jpg" alt="bank" style="width: 38px; height: auto;">
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- </footer> -->
+        <!-- login -->
+        <aside class="login_form" id="id01">
+            <div class="form animate">
+                <div class="close" onclick="document.getElementById('id01').style.display='none'">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="sign_in_form">
+                    <h3 style="font-size: 16px;">Sign In</h3>
+                    <div class="email_address">
+                        <p>Email Address</p>
+                        <input type="text">
+                    </div>
+                    <div class="password_email">
+                        <p>Password</p>
+                        <input type="text">
+                    </div>
+                    <button class="login">login</button>
+                    <p class="forgot_password" style="text-align: center; text-decoration: underline;padding-top: 7px;">
+                        Forgot your password?</p>
+                    <button class="create_account">Create Account</button>
+                </div>
+            </div>
+        </aside>
+        <!-- Sider Cart -->
+        <aside class="sider_cart" id="id02">
+            <div class="form_cart animate">
+                <div class="close" onclick="document.getElementById('id02').style.display='none'">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="sider_cart_form">
+                    <h3 style="font-size: 16px;">Shopping Cart</h3>
+                    <p class="item">3 items</p>
+                    <p class="free_shipping">Free shipping for all orders over $800.00!</p>
+                    <div class="checkout_btn">
+                        <p>Your cart is empty</p>
+                        <button>checkout</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Menulist-item -->
+        <aside class="menu_list_item" id="id03">
+            <section class="from_menu">
+                <div class="close_menu" onclick="document.getElementById('id03').style.display='none'">
+                    <i class="fa-solid fa-xmark" title="close"></i>
+                </div>
+                
+                <div  class="menu_list">
+                    <ul class="menu_list_items">
+                        <li><a href="#">NEW IN</a></li>
+                        <li><a href="#">TREND</a></li>
+                        <li><a href="#" data-tooltip="Sale">COLLECTIONS</a></li>
+                        <li><a href="#">LOOKBOOK</a></li>
+                        <li><a href="#" data-tooltip-1="New">DEMO</a></li>
+                        <li><a href="#" data-tooltip-2="Hot">SHOP INSTAGRAM</a></li>
+                        <li class="responsive_vd1">
+                            <a href="#" class="responsive_vd2">BLOG</a>
+                            <ul class="responsive_vd3">
+                                <li><a href="#">Blog Default Layout</a></li>
+                                <li><a href="#">Blog with small image and left siderbar</a></li>
+                                <li><a href="#">Blog mansory</a></li>
+                                <li><a href="#">Blog full-width</a></li>
+                                <li><a href="#">Blog Post with Look book</a></li>
+                                <li><a href="#">Blog post with product widget</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">BRANDS</a></li>
+                        <li><a href="#">FAQS</a></li>
+                    </ul>
+    
+                </div>
+
+            </section>
+        </aside>
+    <!-- slickSlider sau khi setup extensions evondev snippets-->
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/92857864bd.js" crossorigin="anonymous"></script>
+    <!-- contactJs -->
+    <script src="/js/main.js"></script>
+    <!-- close form sign up everywhere -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        var cart = document.getElementById('id02');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            else if (event.target == cart) {
+                cart.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
